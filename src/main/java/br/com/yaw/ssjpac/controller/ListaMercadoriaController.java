@@ -50,9 +50,6 @@ public class ListaMercadoriaController extends AbstractController {
 	
 	@Autowired
 	private IncluirMercadoriaController incluirController;
-
-	@Autowired
-	private BuscarMercadoriaController buscarController;
 	
 	@Autowired
 	private MercadoriaDAO dao;
@@ -83,7 +80,6 @@ public class ListaMercadoriaController extends AbstractController {
 		
 		registerAction(frame.getFindButton(), new AbstractAction() {
 			public void action() {
-				buscarController.show();
 			}
 		});
 		
