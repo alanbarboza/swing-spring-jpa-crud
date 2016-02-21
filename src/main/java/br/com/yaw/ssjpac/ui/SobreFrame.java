@@ -37,6 +37,7 @@ import org.springframework.stereotype.Component;
  * @author YaW Tecnologia
  */
 @Component
+@SuppressWarnings("serial")
 public class SobreFrame extends JFrame {
 
 	public SobreFrame(){

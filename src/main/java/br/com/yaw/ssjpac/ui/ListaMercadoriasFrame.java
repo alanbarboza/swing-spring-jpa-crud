@@ -28,6 +28,7 @@ import br.com.yaw.ssjpac.model.Mercadoria;
  * 
  * @author YaW Tecnologia
  */
+@SuppressWarnings("serial")
 @Component
 public class ListaMercadoriasFrame extends JFrame {
 	

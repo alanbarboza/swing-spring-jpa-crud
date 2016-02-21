@@ -13,6 +13,7 @@ import br.com.yaw.ssjpac.model.Mercadoria;
  * 
  * @author YaW Tecnologia
  */
+@SuppressWarnings("serial")
 public class MercadoriaTable extends JTable {
 
 	private MercadoriaTableModel modelo;

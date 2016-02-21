@@ -3,6 +3,7 @@ package br.com.yaw.ssjpac.ui;
 import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
+
 import br.com.yaw.ssjpac.model.Mercadoria;
 
 /**
@@ -16,6 +17,7 @@ import br.com.yaw.ssjpac.model.Mercadoria;
  * 
  * @author YaW Tecnologia
  */
+@SuppressWarnings("serial")
 public class MercadoriaTableModel extends AbstractTableModel {
 
 	private List<Mercadoria> mercadorias;

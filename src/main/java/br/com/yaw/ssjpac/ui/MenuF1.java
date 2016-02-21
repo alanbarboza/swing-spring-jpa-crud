@@ -13,6 +13,7 @@ import br.com.yaw.ssjpac.action.AbstractAction;
  * 
  * @author YaW Tecnologia
  */
+@SuppressWarnings("serial")
 public class MenuF1 extends JMenu {
 
 	public MenuF1(String title) {
